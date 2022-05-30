@@ -1,69 +1,137 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
-			<title>index</title>
-			<link rel="stylesheet" href="style.css">
-			<meta charset="utf-8">	
+		
+		<title>Accueil</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style2.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user=scalable=no">
+		
 	</head>
 	
 	<body>
-	
-		<header> 
-			<div id="banniere"></div>
-			
-		</header>
 		
-		<ul id="nav">
-			<li><a href="index.html">index</a></li>
-			<li><a href="activite.html">Activité</a></li>
-			<li><a href="illustration.html">Illustration</a></li>
-		</ul>
-		<h1>PREMIER COURS HTML/CSS</h1><!--Commentaire titre de la page-->
-		<p>Aujourd'hui, nous somme le 27/04/2022.<br><!--Première phrase-->
-			Je fait mes premiers pat sur le codage html/css.</p>
-		<p>Mes premier pas sur le html</p>
-		<p>Plan du cours</p>
-		<img src="imagehtml+css.jpg" alt="Site d'intégrateur web">
-		<h2>HTML</H2>
-		<ul><!--Balise non ordonné-->
-			<li><em>La structure du</em><strong> HTML</strong>
-			<li><em>Les balises</em></li>
-		</ul>
-		<h2>CSS</H2>
-		<ul><!--Balise non ordonné-->
-			<li><em>Les languages de styles</em><strong> Propriètés</strong>
-			<li><em>Les éléments</em></li>
-		</ul>
-		<h2>Balises ordonées <strong>OL</strong></H2>
-		<ol><!--Puce ordonné-->
-			<li><em>Les languages de styles</em><strong> Propriètés</strong>
-			<li><em>Les éléments</em></li>
-		</ol>
-		<ul><em><strong> Découverte et apprentissage de deux langages web</strong></em>
-			
-			<li>Le HTML :</li>
-			<p>Le HTML ou Hypertext Markup Langage web de programmation. Il s'agit plutôt d'un langage de balisage du contenu d'une page sur un site.
-Les balises spécifiques utilisées don le langage HTML, permettent d'inclure certains fichiers tels que les feuilles de style, les images ou les
-fichiers JavaScript, Ainsi, le HTML a pour fonctionnalité principale la création de liens entre deux pages sur le web : les liens hypertextes. Ainsi,
-le HTML a pour fonctionnalité principale la création de liens entre deux pages sur le web : les liens hypertextes. Aussi, le HTML permet également 
-de donner une forme générale au texte qui sera affiché sur la page de votre sit web.
-			</p>
-			<li> Le Css :</li>
-			<p>A l'instar du langage HTML, le css ou la feuille de style en cascade facilite la mise en forme de votre page web. Ce langage front-end
-			permet en effet de sélectionner un élément sur la page du site et d'y appliquer
-			</p>
-		</ul>
-		<h2>Le Tableau</h2>
+		<div id="pageglobal">
 		
-		<footer>
-			<div id="p1">
-			Auteur : MARIR Housine || Formation Intégrateur Web || Copiright : 2022
+		<!--<header>-->
+		
+		<!--<div class="conteneur-flex">
+		<div class="sous-conteneur-flex">
+			<div class="element-flex">-->
+			
+		<!--<div id="banniere">-->
+		<!--<div id="imagageban"></div>
+		</div>-->
+		
+		<!--<img src="cv.png" alt="cv.png">-->
+
+		<!--<nav>
+		
+		<div id="menu">
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="presentation_CV.html">Présentation_CV</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			
+		</ul>
+		</div>
+		</nav>-->
+		<!--</header>-->
+		
+		<h1>Menu HTML et CSS</h1>
+<nav>
+  <ul>
+    <li class="deroulant"><a href="#">Cours Complets &ensp;</a>
+      <ul class="sous">
+        <li><a href="presentation_CV.html">Cours HTML et CSS</a></li>
+        <li><a href="presentation_CV.html">Cours JavaScript</a></li>
+        <li><a href="presentation_CV.html">Cours PHP et MySQL</a></li>
+		<li><a href="index.html">Planning formation</a></li>
+		<li><a href="pagecv.html">Page CV</a></li>
+      </ul>
+    </li>
+    <li class="deroulant"><a href="#">Articles &ensp;</a>
+      <ul class="sous">
+        <li><a href="#">CSS display</a></li>
+        <li><a href="#">CSS position</a></li>
+        <li><a href="#">CSS float</a></li>
+      </ul>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="#">À propos</a></li>
+  </ul>
+</nav>
+
+<!--<div class="conteneur-flex">
+		<div class="sous-conteneur-flex">
+			<div class="element-flex">1</div>
+			<div class="element-flex">2</div>
+			<div class="element-flex">3</div>
 			</div>
-			</footer>
 			
-		<footer img id="logocnamfooter.jpg">
-		</footer>
-			
-	</body>
+		<div class="sous-conteneur-flex">
+			<div class="element-flex">4</div>
+			<div class="element-flex">5</div>
+			<div class="element-flex">6</div>
+			</div>-->
+</div>
+		
+
 	
+		<h1>Formation au CNAM</h1>
+		
+		<h2>Planning de cours</h2>
+		<div class="sous-conteneur-flex">
+			<div class="table">
+		<table>
+		
+		<caption>Planning hebdomadaires des cours au CNAM</caption>
+		
+		<tr id="entete">
+		
+			<th></th>
+			<th>Lundi</th>
+			<th>Mardi</th>
+			<th>Mercredi</th>
+			<th>Jeudi</th>
+			<th>Vendredi</th>
+			
+		</tr>
+		
+		<tr>
+		<td><strong>Matin</strong></td>
+		<td>09h00-12h30</td>
+		<td>09h00-12h30</td>
+		<td>09h00-12h30</td>
+		<td>09h00-12h30</td>
+		<td>09h00-12h30</td>
+		</tr>
+		
+		<tr>
+		
+		<td><strong>Midi</strong></td>
+		<td id="pausedemidi" colspan="5" style="text-align: center">Pause de midi</td>
+		
+		</tr>
+		
+		<tr>
+		
+		<td><strong>Après-midi</strong/></td>
+		<td>13h30-17h30</td>
+		<td>13h30-17h30</td>
+		<td>13h30-17h30</td>
+		<td>13h30-17h30</td>
+		<td>13h30-17h30</td>
+		</tr>
+		
+		</table></div></div>
+		
+		<p>J'ai intégré le Conservatoire National des Arts et Métiers 14 Avril 2022<br>
+		Je me forme au métier d'Intégrateur Web</p>
+	
+	
+	
+	</body>
+
 </html>
